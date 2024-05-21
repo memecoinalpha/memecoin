@@ -1,0 +1,248 @@
+
+html {
+    font-size: 12px;
+}
+
+body {
+    background: #73C4EA;
+    width: 100%;
+    height: 5440px;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: 300px 800px 700px 1200px 500px 500px 800px 200px;
+    grid-template-areas: "header" "img" "boxes" "token" "squares" "plans" "thebox" "links";
+    overflow-x: hidden;
+    
+}
+h1 {
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #FFF;
+font-family: "Jolly Lodger";
+font-size: 260px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: linear-gradient(360deg, #FFA83D -20.53%, #B46336 81.92%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.header {
+    margin: auto;
+    width: 100%;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 70% 30%;
+    align-items: center;
+    height: 300px;
+}
+
+.subtitle {
+    grid-area: 2 / 2 / 2 / 2;
+    color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-align: center;
+}
+.title {
+    grid-area: 1 / 2 / 2 / 2;
+    text-align: center; 
+}
+.cavecat {
+    grid-area: img;
+    height: 400px;
+    text-align: center;
+
+}
+ img{
+    
+    width: 30%;
+    text-align: center;
+}
+
+.yo {
+    grid-area: boxes;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 30% 40% 30%;
+}
+.lorebox {
+    grid-area: 1 / 2 / 1 / 2;
+    border-radius: 24px;
+    opacity: 0.8;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 100%;
+    
+}
+
+.loreT {
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 2.1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.loreB {
+color: #000;
+font-family: Poppins;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.Token h2{
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #FFF;
+font-family: "Jolly Lodger";
+font-size: 260px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: linear-gradient(360deg, #FFA83D -20.53%, #B46336 81.92%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.Token {
+    grid-area: token;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+
+.Token img {
+    margin-top: -300px;
+}
+
+.squares {
+    grid-area: squares;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 5% 26% 5% 26% 5% 26% 5%
+}
+
+.square1 {
+    grid-area: 1 / 2 / 1 / 2;
+    border-radius: 24px;
+    opacity: 0.8;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 100%;
+}
+.square2 {
+    grid-area: 1 / 4 / 1 / 4;
+    border-radius: 24px;
+    opacity: 0.8;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 100%;
+}
+
+.square3 {
+    grid-area: 1 / 6 / 1 / 6;
+    border-radius: 24px;
+    opacity: 0.8;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 100%;
+}
+
+.squares p {
+color: #000;
+font-family: Poppins;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.Plans {
+    grid-area: plans;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+
+.Plans h2{
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #FFF;
+font-family: "Jolly Lodger";
+font-size: 260px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: linear-gradient(360deg, #FFA83D -20.53%, #B46336 81.92%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.thebox {
+    grid-area: thebox;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+}
+
+.planbox {
+    grid-area: 1 / 2 / 1 / 2;
+    border-radius: 24px;
+    opacity: 0.8;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 100%;
+}
+
+.planbox p {
+color: #000;
+font-family: Poppins;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 5px;
+margin-right: 5px;
+text-wrap: wrap;
+}
+
+.links {
+    grid-area: links;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: 100%;
+    text-align: center;
+}
+
+.twitter {
+    grid-area: 1 / 4 / 1 / 4;
+    width: 200%;
+    margin-top: 150px;
+}
+
+.telegram {
+    grid-area: 1 / 6 / 1 / 6;
+    width: 200%;
+    margin-top: 150px;
+}
